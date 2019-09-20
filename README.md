@@ -24,3 +24,9 @@ $ docker-compose up -d
 - Hadoop datanode: http://<ip_or_hostname_server>:9864
 - Spark master: http://<ip_or_hostname_server>:8585 (webui) or http://<ip_or_hostname_server>:7077 (jobs)
 - Spark worker-[x]: http://<ip_or_hostname_server>:808[x]
+
+## hislog
+- 最新更新9.20
+    - make后需要
+        - docker volume create --name=datanode-1
+        - docker volume create --name=datanode-2
