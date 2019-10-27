@@ -30,3 +30,7 @@ $ docker-compose up -d
     - make后需要
         - docker volume create --name=datanode-1
         - docker volume create --name=datanode-2
+
+- 10.27
+    - 需要更新jupyterhub的uernamelist
+    - 需要更新jupyterhub的crt和key for ssl
